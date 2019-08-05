@@ -6,22 +6,161 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cat page</title>
     <style>
-        body {
+        .header {
+        height: 85px;
+        background-color: #51d0de;
+        }
+        .logo {
+         float: left;
+         padding: 10px;
+        }
+        .logo img{
+            width: 70px;
+            height: 60px;
+        }
+        .contacts {
+            float: right;
+            display: flex;
+            height: 85px;
+            align-items: center;
+        }
+        .contacts div {
+            height: 30px;
+            border: 3px solid rgb(163, 14, 163);
+            margin: 8px;
+            font-weight:bold;
+            padding: 3px;
+        }
+        .body {
              background-color: pink;
          }  
-         nav
-         {
-             background-color: green;
-             color: black;
+         .flex-container{
+             display: flex;
+             justify-content: space-between;
+             align-items: stretch;
+             height: 30px;
+             padding: 10px;
+             background-color: #bf4aa8;
+             padding-left: 200px; 
+             padding-right: 200px;
          }
+         .flex-container div{
+        font-weight:bold;
+         }
+         .flex-container a {
+             color: black;
+             text-decoration: none;
+         }
+         .Sleepy img {
+            width: 100%;
+         }
+         .container {
+            font-size: 20px;
+            display: grid;
+            margin-left: 200px;
+            margin-right: 200px;
+         }
+         .Look {
+            background-color: #51d0de; 
+            margin: 8px;
+            font-weight:bold;
+            padding: 3px;
+            grid-column: 1/3;
+            grid-row: 1;
+         }
+         .at {
+            background-color: #51d0de;
+            margin: 8px;
+            font-weight:bold;
+            padding: 3px; 
+            grid-column: 1;
+            grid-row: 2;
+         }
+         .them {
+            background-color: #51d0de;
+            margin: 8px;
+            font-weight:bold;
+            padding: 3px;
+            grid-column: 2;
+            grid-row: 2;
+         }
+         .furbabies {
+            background-color: #51d0de;
+            margin: 8px;
+            font-weight:bold;
+            padding: 3px;
+            grid-column: 3;
+            grid-row: 1/3;
+         }
+        .yay {
+            background-color: #51d0de;
+            margin: 8px;
+            font-weight:bold;
+            padding: 3px;
+            grid-column: 1/4;
+            grid-row: 3;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+        }
     </style>
 </head>
 <body>
-        <nav class="row">
-                <a href="#Par mums" class="button">Par mums</a>
-                <a href="#Kaķi" class="button">Kaķi</a>
-                <a href="#Smukas bildes" class="button">Kontakti</a>
-        </nav>
-         
-</body>
+<div class="header">
+    <div class="logo"><img src="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/152964589-welcome-home-new-cat-632x475.jpg" alt="FUR BEBE"></div>
+<div class="contacts">
+    <div><a href="mailto:cats@cats.lv" style="text-decoration: none; color: black">cats@cats.lv</a> </div>
+    <div>+371 22222222</div>
+</div>
+</div>
+        <div class="flex-container">
+                <div><a href="#Footer" class="button">Par mums</a></div>
+                <div><a href="#Footer3" class="button">Kaķi</a></div>
+                <div><a href="#Footer4" class="button">Morning Train</a></div>
+                <div><a href="#Footer2" class="button">Kontakti</a></div>
+        </div>
+        <div class="Sleepy"> <img src="catinbed21.jpg" alt="Sleepy"></div>
+
+        <div class="container">
+                <div class="Look">Look</div>
+                <div class="at">at</div>
+                <div class="them">them</div>
+                <div class="furbabies">furbabies, </div>
+                <div class="yay">yay!</div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d962766.892910744!2d-81.1347346828577!3d19.50688704994227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f25863e2fb8aa29%3A0x7045c4d38770715e!2sCayman+Islands!5e0!3m2!1sen!2slv!4v1565041365489!5m2!1sen!2slv" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+       <div class="footer">
+        <div id="Footer3"><strong>Lekcijas kaķismā</strong>
+            <ul>
+                <li><a href="https://www.catsthemusical.com/" target="_blank">Lekcijas</a></li>
+                <li><a href="https://catcamp.co/" target="_blank">Nometnes</a></li>
+                <li><a href="https://www.youtube.com/watch?v=_bFPdr5xmII" target="_blank">Kaķu pārtijs</a></li>
+                <li><a href="https://www.iizcat.com/post/4168/Cat-walks-into-university-lecture-and-does-the-most-relatable-thing-ever" target="_blank">Lasi lekciju!</a></li>
+            </ul>
+        </div>
+        <div id="Footer4"><strong>Praktiskās nodarbības</strong>
+                <ul>
+                        <li>Nodarbības</li>
+                        <li>Brīvprātīgais darbs</li>
+                        <li>Kaķu pārtijs</li>
+                        <li>Māci meistarklasi!</li>
+                    </ul>
+        </div>
+        <div id="Footer"><strong>Seko mums</strong>
+                <ul>
+                        <li><a href="https://www.facebook.com/groups/1902594796674596/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/cats_of_instagram/?hl=en" target="_blank">Istagram</a></li>
+                        <li><a href="https://www.askideas.com/media/45/Costume-Party-At-The-Crazy-Cat-Ladys-House-Funny-Party-Meme-Image.jpg" target="_blank">Kaķu tantēm</a></li>
+                    </ul>
+        </div>
+        <div id="Footer2"><strong>Kontakti</strong>
+                <ul>
+                        <li>George Town, Cayman Islands</li>
+                        <li>+371 22222222</li>
+                        <li>cats@cats.lv</li>
+                    </ul>
+        </div>
+    </div>
+    </body>
 </html>
